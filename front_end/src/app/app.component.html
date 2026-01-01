@@ -1,0 +1,30 @@
+<div class="mobile-search">
+  <form action="/" class="search-form">
+    <img src="img/svg/search.svg" alt="search" class="svg" />
+    <input
+      class="form-control me-sm-2 box-shadow-none"
+      type="search"
+      placeholder="Search..."
+      aria-label="Search"
+    />
+  </form>
+</div>
+<div class="mobile-author-actions"></div>
+<app-navbar></app-navbar>
+<main class="main-content">
+  <app-menu></app-menu>
+  <router-outlet></router-outlet>
+  <app-footer></app-footer>
+</main>
+<div id="overlayer">
+  <div class="loader-overlay">
+    <div class="dm-spin-dots spin-lg">
+      <span class="spin-dot badge-dot dot-primary"></span>
+      <span class="spin-dot badge-dot dot-primary"></span>
+      <span class="spin-dot badge-dot dot-primary"></span>
+      <span class="spin-dot badge-dot dot-primary"></span>
+    </div>
+  </div>
+</div>
+<div class="overlay-dark-sidebar"></div>
+<div class="customizer-overlay"></div>
